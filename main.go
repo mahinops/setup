@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"setup/cmd"
+)
 
 func main() {
-	fmt.Println("Setup...")
+	cmd.Execute()
 }
